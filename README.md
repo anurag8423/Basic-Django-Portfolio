@@ -1,0 +1,2 @@
+# Basic-Django-Portfolio
+Discover a simple and elegant portfolio website created with Django. Showcasing my skills, and projects   in a clean and intuitive layout. With a focus on simplicity, this secondary portfolio allows you to get a brief idea of my work experience and proficiency.
