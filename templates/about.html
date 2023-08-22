@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+  {% load static %}
+  {% block title%}About{% endblock title %}
+  {%block aboutact %}active{% endblock aboutact %}
+  {% block body %}
+      <h1 class="text-center my-3 py-3">Glance at me</h1>
+      <div class="container mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="{% static 'img/photo1.jpeg' %}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Coder</h5>
+                <p class="card-text">I am a versatile coder proficient in Java, C++, C, and Python. With a strong foundation in these programming languages, I am currently honing my skills to develop robust and efficient software solutions. Whether it's developing algorithms, designing user interfaces, or optimizing code performance, I am constantly expanding my repertoire to excel in various coding domains.</p>
+                <a href="https://www.linkedin.com/in/anurag-singh-930899235/" class="btn btn-primary">LinkedIn Profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="{% static 'img/photo2.jpeg' %}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Developer</h5>
+                <p class="card-text">I am an aspiring developer specializing in React.js and Django. With expertise in both front-end and back-end development, I am able to create dynamic and responsive web applications. I am passionate about leveraging
+                the power of React.js and Django to deliver efficient and scalable solutions for complex projects.</p>
+                <a href="https://github.com/anurag8423" class="btn btn-primary">Github profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="{% static 'img/photo3.jpeg' %}" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Learner</h5>
+                <p class="card-text">I am a Computer Science Engineering student with a strong aspiration to become a MongoDB and SQL developer. With a keen
+                interest in database management systems, I am also actively pursuing knowledge and skills in working with MongoDB and SQL. As a dedicated learner, I strive to become proficient in developing robust
+                and optimized database solutions using MongoDB and SQL.
+
+                <a href="https://www.linkedin.com/in/anurag-singh-930899235/" class="btn btn-primary">LinkedIn Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endblock body %}
