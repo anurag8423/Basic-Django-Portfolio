@@ -16,7 +16,7 @@ def contact(request):
         ins = Contact(name=name,email=email,phone=phone,desc=desc)
         ins.save()
         print("The entries has been stored inside the database")
-    return render(request,'contact.html')
+    return render(request,'Contact.html')
 
 def project(request):
     # return HttpResponse("This is the Projects page")
